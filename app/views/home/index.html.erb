@@ -1,0 +1,10 @@
+<h1>coucou les gens</h1>
+<p>Tous les gossips récents....</p>
+
+    <h2><% @gossip.each do |gossip| %>
+    <table class="table">
+    <td class="text-left">
+    <%=  link_to gossip.user.first_name %></td>
+    <td class="text-align"><%= gossip.title %></td>
+    </table>
+    <% end %>

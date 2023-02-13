@@ -1,0 +1,2 @@
+class GossipTag < ApplicationRecord
+end
